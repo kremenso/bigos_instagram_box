@@ -9,14 +9,17 @@ module BigosInstagramBox
   mattr_accessor :client_secret
   @@client_secret = nil
 
+  mattr_accessor :access_token
+  @@access_token = nil
+
   mattr_accessor :hashtag
   @@hashtag = nil
 
-  mattr_accessor :max_tag_id
-  @@hashtag = nil
+  mattr_accessor :user_id
+  @@user_id = nil
 
-  mattr_accessor :count
-  @@hashtag = 60
+  mattr_accessor :location
+  @@user_id = nil
 
   module Controllers
     autoload :Helpers, 'bigos_instagram_box/controllers/helpers'
