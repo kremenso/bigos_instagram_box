@@ -1,0 +1,7 @@
+<ul>
+  <% posts.each do |post| %>
+    <li>
+      <%= render :partial=>"bigos_instagram_box/module/post", :locals=>{:post=>post} %>
+    </li>
+  <% end  %>
+</ul>
