@@ -3,6 +3,7 @@ BigosInstagramBox.setup do |config|
   config.client_secret = "YOUR_APP_CLIENT_SECRET"
   config.access_token = "YOUR_APP_ACCESS_TOKEN"
   config.hashtag = "INSTAGRAM HASHTAG"
-  config.user_id = "INSTAGRAM USER"
+  config.user_id = "INSTAGRAM USER ID"
+  config.user_name = "INSTAGRAM USER NAME"
   config.location = ["latitude", "longitude"]
 end

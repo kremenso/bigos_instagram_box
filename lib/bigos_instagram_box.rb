@@ -18,6 +18,9 @@ module BigosInstagramBox
   mattr_accessor :user_id
   @@user_id = nil
 
+  mattr_accessor :user_name
+  @user_name = nil
+
   mattr_accessor :location
   @@user_id = nil
 
