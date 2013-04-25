@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bigos_instagram_box (0.0.4)
+    bigos_instagram_box (0.0.5)
       instagram
       rails (~> 3.2.9)
       yettings
@@ -39,14 +39,14 @@ GEM
     arel (3.0.2)
     builder (3.0.4)
     erubis (2.7.0)
-    faraday (0.8.4)
+    faraday (0.8.7)
       multipart-post (~> 1.1)
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
-    hashie (1.2.0)
+    hashie (2.0.4)
     hike (1.2.1)
     i18n (0.6.1)
-    instagram (0.8.5)
+    instagram (0.10.0)
       faraday (>= 0.7, < 0.9)
       faraday_middleware (~> 0.8)
       hashie (>= 0.4.0)
@@ -60,9 +60,9 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.19)
+    mime-types (1.23)
     multi_json (1.5.0)
-    multipart-post (1.1.5)
+    multipart-post (1.2.0)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -100,7 +100,7 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.35)
+    tzinfo (0.3.37)
     yettings (0.1.1)
 
 PLATFORMS
